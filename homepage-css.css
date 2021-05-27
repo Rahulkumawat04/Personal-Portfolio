@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+
+:root{
+    --primary-colour: #1E3A8A;
+    --light-black: #1F2937; 
+}
+
+hr{
+    margin: 2rem 0rem;
+}
+
+body{
+    font-family: 'Nunito', sans-serif;
+}
+
+.container{
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.container-center{
+    max-width: 600px;
+    margin:auto;
+}
+
+/* links */
+.link{
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+}
+
+.primary-link{
+    background-color: var(--primary-colour);
+    border-radius: 0.5rem;
+    color: white;
+}
+
+.secondary-link{
+    color: var(--primary-colour);
+    border-radius: 0.5rem;
+    border: 1px solid var(--primary-colour);
+}
+
+/* list */
+.non-bullet-list{
+    list-style: none;
+}
+
+.inline-list{
+    display: inline;
+}
+
+/* navigation bar */
+.navigation-bar{
+    background-color: var(--primary-colour);
+    color: #ffffff;
+    padding: 1rem;
+}
+
+#name-brand{
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.navigation-bar .nav-pills{
+    text-align: right;
+}
+
+.navigation-bar .link{
+    color: white;
+}
+
+.navigation-bar .active-link{
+    font-weight: bold;
+}
+
+/* header */
+.hero{
+    padding: 2rem;
+}
+
+.hero .hero-img{
+    max-width: 400px;
+    display: block;
+    margin:auto
+}
+
+.hero .hero-heading{
+    font-weight: bold;
+    color: var(--light-black);
+    padding-top: 1rem;
+}
+
+.hero .hero-heading #thewebdev{
+    color: var(--primary-colour);
+}
