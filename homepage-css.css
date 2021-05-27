@@ -2,7 +2,8 @@
 
 :root{
     --primary-colour: #1E3A8A;
-    --light-black: #1F2937; 
+    --light-black: #1F2937;
+    --off-white: #E5E7EB;
 }
 
 hr{
@@ -11,6 +12,7 @@ hr{
 
 body{
     font-family: 'Nunito', sans-serif;
+    margin: 0rem;
 }
 
 .container{
@@ -89,8 +91,35 @@ body{
     font-weight: bold;
     color: var(--light-black);
     padding-top: 1rem;
+    text-align: center;
 }
 
 .hero .hero-heading #thewebdev{
     color: var(--primary-colour);
+}
+
+/* sections */
+.section{
+    text-align: center;
+}
+
+.section h2{
+    padding: 2rem;
+    text-align: center;
+}
+
+.ofw{
+    background-color: var(--off-white);
+}
+
+/* footer */
+.footer{
+    background-color: var(--primary-colour);
+    padding: 2rem 1rem;
+    text-align: center;
+    color: white;
+}
+
+.footer .link{
+    color: white;
 }
