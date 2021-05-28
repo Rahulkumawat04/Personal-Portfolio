@@ -124,9 +124,17 @@ body{
     color: white;
 }
 
+.footer .footer-header{
+    font-weight: bold;
+}
+
 .project-container{
     border: 1px solid var(--primary-colour);
     border-radius: 2rem;
     margin-top: 1rem;
     padding-bottom: 1rem;   
+}
+
+.projects-link{
+    font-style: oblique;
 }
