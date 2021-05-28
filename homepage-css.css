@@ -7,7 +7,7 @@
 }
 
 hr{
-    margin: 1rem 0rem;
+    margin: 1.5rem 0rem;
 }
 
 body{
@@ -82,7 +82,7 @@ body{
 }
 
 .hero .hero-img{
-    max-width: 400px;
+    max-width: 350px;
     display: block;
     margin:auto
 }
@@ -104,13 +104,13 @@ body{
 }
 
 .section h2{
-    padding: 2rem;
+    padding: 1rem;
     text-align: center;
 }
 
-.ofw{
+/* .ofw{
     background-color: var(--off-white);
-}
+} */
 
 /* footer */
 .footer{
@@ -128,4 +128,5 @@ body{
     border: 1px solid var(--primary-colour);
     border-radius: 2rem;
     margin-top: 1rem;
+    padding-bottom: 1rem;   
 }
