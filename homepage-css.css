@@ -94,8 +94,9 @@ body{
     text-align: center;
 }
 
-.hero .hero-heading #thewebdev{
+.hero .hero-heading .hero-span-text{
     color: var(--primary-colour);
+    font-weight: bold;
 }
 
 /* sections */
