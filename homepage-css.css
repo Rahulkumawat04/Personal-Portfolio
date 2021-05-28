@@ -123,3 +123,9 @@ body{
 .footer .link{
     color: white;
 }
+
+.project-container{
+    border: 1px solid var(--primary-colour);
+    border-radius: 2rem;
+    margin-top: 1rem;
+}
