@@ -1,110 +1,112 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
 
-:root{
+:root {
     --primary-colour: #1E3A8A;
     --light-black: #1F2937;
     --off-white: #E5E7EB;
 }
 
-hr{
+hr {
     margin: 1.5rem 0rem;
 }
 
-body{
+body {
     font-family: 'Nunito', sans-serif;
     margin: 0rem;
 }
 
-.container{
+.container {
     padding-left: 1rem;
     padding-right: 1rem;
 }
 
-.container-center{
+.container-center {
     max-width: 600px;
-    margin:auto;
+    margin: auto;
 }
 
 /* links */
-.link{
+.link {
     text-decoration: none;
     padding: 0.5rem 1rem;
 }
 
-.primary-link{
+.primary-link {
     background-color: var(--primary-colour);
     border-radius: 0.5rem;
     color: white;
 }
 
-.secondary-link{
+.secondary-link {
     color: var(--primary-colour);
     border-radius: 0.5rem;
     border: 1px solid var(--primary-colour);
 }
 
 /* list */
-.non-bullet-list{
+.non-bullet-list {
     list-style: none;
 }
 
-.inline-list{
+.inline-list {
     display: inline;
 }
 
 /* navigation bar */
-.navigation-bar{
+.navigation-bar {
     background-color: var(--primary-colour);
     color: #ffffff;
     padding: 1rem;
+    overflow: hidden;
 }
 
-#name-brand{
+#name-brand {
     font-size: 2rem;
     font-weight: bold;
 }
 
-.navigation-bar .nav-pills{
+.navigation-bar .nav-pills {
     text-align: right;
 }
 
-.navigation-bar .link{
+.navigation-bar .link {
     color: white;
 }
 
-.navigation-bar .active-link{
-    font-weight: bold;
+.navigation-bar .active-link {
+    font-weight: bolder;
 }
 
+
 /* header */
-.hero{
+.hero {
     padding: 2rem;
 }
 
-.hero .hero-img{
+.hero .hero-img {
     max-width: 320px;
     display: block;
-    margin:auto
+    margin: auto
 }
 
-.hero .hero-heading{
+.hero .hero-heading {
     font-weight: bold;
     color: var(--light-black);
     padding-top: 1rem;
     text-align: center;
 }
 
-.hero .hero-heading .hero-span-text{
+.hero .hero-heading .hero-span-text {
     color: var(--primary-colour);
     font-weight: bold;
 }
 
 /* sections */
-.section{
+.section {
     text-align: center;
 }
 
-.section h2{
+.section h2 {
     padding: 1rem;
     text-align: center;
 }
@@ -114,28 +116,30 @@ body{
 } */
 
 /* footer */
-.footer{
+.footer {
     background-color: var(--primary-colour);
     padding: 2rem 1rem;
     text-align: center;
     color: white;
 }
 
-.footer .link{
+.footer .link {
     color: white;
 }
 
-.footer .footer-header{
+.footer .footer-header {
     font-weight: bold;
 }
 
-.project-container{
+
+/* Projects section css */
+.project-container {
     border: 1px solid var(--primary-colour);
     border-radius: 2rem;
     margin-top: 1rem;
-    padding-bottom: 1rem;   
+    padding-bottom: 1rem;
 }
 
-.projects-link{
+.projects-link {
     font-style: oblique;
 }
