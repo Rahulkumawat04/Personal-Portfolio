@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react';
-import profileImg from '../assets/profile.png';
+import profileImg from '../assets/Profile.png';
 
 // ============ OPTIONAL LOGOS ============
 // Add files to src/assets/logos/ and uncomment the imports you have.
